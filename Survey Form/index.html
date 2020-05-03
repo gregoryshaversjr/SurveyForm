@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	
+	<head>	
+		<meta charset="utf-8">
+		<title>Software Engineering survey</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="description" content="This is a survery">
+		<meta name="keywords" content=>
+		<meta name="arthur" content="Gregory Shavers Jr">
+	</head>
+
+<body>
+	<div class="box-container">
+		<header>
+		<h1 id="title" class="text-center">Software Engineering Career Survey</h1>
+		<p id="description" class="description text-center"> A career track survey for Software Engineers</p>
+		</header>
+				<form id="survey-form">	
+					<div class="form-group">
+					<label id="name-label" for="name">Name</label>
+					<input 
+							type="text"
+							name="name" 
+							id="name" 
+							placeholder="Name?" 
+							required 
+					>		
+					<p></p>
+					</div>
+					<div class="form-group">
+					<label id="email-label" for="email">Email</label>
+					<input 
+							type="email" 
+							name="email" 
+							id="email"
+							placeholder="Email address?"
+							required
+					>	
+					<p></p>
+					</div>
+					<div class="form-group">
+					<label id="number-label" for="age">Age</label>
+					<input 
+							type="number" 
+							name="age" 
+							id="number" 
+							min="5"
+							max="99" 
+							placeholder="Age?"
+							required
+					>
+					<p></p>
+					</div>
+				<div class="form-group">	
+				<label for="dropdown">What type of role do you want?</label>
+				<select id="dropdown" name="role" class="form-control" required>
+					<option disabled selected value>Select an option</option>
+					<option value="Frontend Engineer">Frontend Engineer</option>
+					<option value="Backend Engineer">Backend Engineer</option>
+					<option value="Full-Stack Engineer">Full-Stack Engineer</option>
+					<option value="Mobile Engineer">Mobile Engineer</option>
+					<option value="Software Engineer">Software Engineer</option>
+					<option value="Principal Engineer">Principal Engineer</option>
+				</select>
+					<br>
+					<div>
+					<div class="form-group">	
+					<p>Best describe your level of experience.</p>
+					<input  
+						type="radio" 
+						name="developer-level" 
+						id="senior-level" 
+						value="senior-level"
+						class="input-radio">
+					<label for="senior-level">Senior Level</label><br>
+					<input 
+						type="radio" 
+						name="developer-level" 
+						id="middle-level" 
+						value="middle-level"
+						class="input-radio">
+					<label for="middle-level">Middle Level</label><br>
+					<input 
+						type="radio" 
+						name="developer-level"
+						id="entry-level" 
+						value="entry-level"
+						class="input-radio">
+					<label for="entry-level">Entry Level</label><br>
+					</div>	
+					<div class="form-group">
+					<p>What is your future career plans?</p>
+					<input 
+						type="checkbox" 
+						name="career-plans" 
+						id ="work"
+						value="work"
+						class="input-checkbox" 
+						>		
+					<label for="work">Work for a company.</label><br>
+					<input
+						type="checkbox" 
+						name="career-plans" 
+						id="business"
+						value="business"
+						class="input-checkbox"
+						>
+					<label for="business">Start a business.</label><br>
+					<input 
+						type="checkbox" 
+						name="career-plans" 
+						id="freelance"
+						value="freelance"
+						class="input-checkbox"
+						>
+					<label for="freelance">Work in Freelance development.</label><br>
+					</div>
+					<div class="form-group">
+					<p></p>
+					<label for="comments">What is your goal as a developer?</label>
+					<br>
+					<textarea 
+						rows="15" 
+						cols="50"
+						id="comments"
+						class="input-textarea" 
+						name="comments"
+						placeholder="Please enter your goals here." 
+					></textarea>
+					<br>
+					<input id="submit" type="submit" name="submit">	
+					</div>
+
+		</form>				
+	</div>
+</body>
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

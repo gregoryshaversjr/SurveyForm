@@ -1,0 +1,22 @@
+Notes 
+
+Radio Button - Radio Buttons have inputs. The Radio button needs to be nested within a label. By wrapping an input button into a label it will automatically associate the radio button with the label. All related radio buttons should have the same "name" attribute to create a radio button group. This will insure one radio button is selected at one time.  It's also best best practices to create an id attribute within the input tag and a for attribute within the label. This allows assistive technologies to create a link relationships.  
+
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+
+
+Checkboxes Button - Checkboxes have inputs. The Checkboxes button need tobe nested within a label. By wrapping an input buttin to a label it will automatically associate the radio buttin with the label. All relate checkboxes should have the same name attrbiute to create checkbox button group. It is considered best practice to explicitly define the relationship between a checkbox input and its corresponding label by setting the for attribute on the label element to match the id attribute of the associated input element
+
+
+
+<label for="loving">
+<input id="loving" type="checkbox" name="personality"> Loving
+</label>
+
+
+Value attribute
+
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkbox report their values from the value attribute.
+

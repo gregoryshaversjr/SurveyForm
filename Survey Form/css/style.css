@@ -1,0 +1,41 @@
+<style>
+
+#box-container{
+	display:flex ;
+	flex-direction: column;
+}
+
+#text-center{
+	display:flex;
+	flex-direction: column;
+}
+
+#description{
+	display:flex;
+	flex-direction: ;
+}
+
+.survey-form{
+	display:flex;
+	flex-direction: column;
+}
+
+.form-group{
+	display:flex;
+	flex-direction: column;
+}
+
+#form-control{
+	display:flex;
+	flex-direction: column;
+}
+.survey-forn{
+	display:flex;
+	flex-direction: column;
+}
+
+
+
+
+</style>
+
